@@ -1247,6 +1247,20 @@ button { font: inherit; cursor: pointer; border: none; background: none; color: 
   letter-spacing: -0.015em;
   margin-top: 1px;
 }
+.store-badge.disabled {
+  background: rgba(255, 255, 255, 0.08);
+  color: #86868b;
+  cursor: not-allowed;
+  pointer-events: none;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.store-badge.disabled small,
+.store-badge.disabled strong {
+  color: #86868b;
+}
+.store-badge.disabled svg {
+  opacity: 0.45;
+}
 
 .final-fine {
   font-size: 12px;
